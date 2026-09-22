@@ -46,8 +46,8 @@ REST API на Express для учёта оборудования произво�
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/oxolegit/maintenance-api.git
-cd maintenance-api
+git clone https://github.com/oxolegit/maintenance-api-pg.git
+cd maintenance-api-pg
 npm install
 cp .env.example .env          # пароль БД и API-ключ при необходимости поменять
 docker compose up -d db       # PostgreSQL 16 с томом pgdata и healthcheck
